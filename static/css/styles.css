@@ -1,5 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 footer {
-    text-align:center;
-    font-size: 50px;
+    font-family: sans-serif;
     color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1.5em;
+    text-align: center;
 }

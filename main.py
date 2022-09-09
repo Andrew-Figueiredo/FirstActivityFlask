@@ -10,7 +10,7 @@ def index():
 
 @app.route('/result')
 def equal():
-    return 'page result'
+    return 'Calculo Realizado'
 
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=81, debug=True)

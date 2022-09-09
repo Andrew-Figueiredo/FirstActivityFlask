@@ -11,8 +11,28 @@
         Calculadora do Andrew
     </footer>
     
-    <main id='board'>
-        <input>
+    <main>
+        <hr>
+        <form action="/result">
+            <label for="FN" class="title">Digite o Primeiro numero:</label>
+            <input type="number" name="FN" id="FN"><br><br>
+            <label for="SN" class="title">Digite o Segundo numero: </label>
+            <input type="number" name="SN" id="SN"><br><br>
+            <label for="OP" class="title">Selecione o Operador </label>
+            <select name="OP" id="OP">
+                <option selected disabled value="">Selecione</option>
+                <option value="">+ Somar</option>
+                <option value="">- Subtrair</option>
+                <option value="">* Multiplicar</option>
+                <option value="">/ Dividir</option>
+
+            </select><br><br>
+ 
+            
+            <input type="submit" name="button-final" id="button-final" value="Realizar Operação">
+
+
+        </form>
         
         
     </main>
