@@ -17,6 +17,7 @@ def calculator(num1:int, num2:int, op:str):
             return str(num1/num2)
     else:
         return 'Operação Inviável de ser realizada!'
+
 # Página Principal
 @app.route('/')
 def index():

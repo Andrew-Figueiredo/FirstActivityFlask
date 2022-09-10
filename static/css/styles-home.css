@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 footer {
@@ -11,9 +10,26 @@ footer {
     text-align: center;
 }
 
+main {
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
 
 form{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 1.5em;
     text-align: center;
+}
+
+#botao-final {
+    border-radius: 25px;
+    height: 3em;
+    width: 11em;
+    background-color: aquamarine;
 }

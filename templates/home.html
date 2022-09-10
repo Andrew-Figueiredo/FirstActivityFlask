@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Drew</title>
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/styles-home.css">
 </head>
 <body>
     <footer>
@@ -15,11 +15,11 @@
         <hr>
         <form action="/result" method="post">
             <label for="FN" class="title">Digite o Primeiro numero:</label>
-            <input type="number" name="FN" id="FN"><br><br>
+            <input required type="number" placeholder="0" name="FN" id="FN" min="0" max="100000"><br><br>
             <label for="SN" class="title">Digite o Segundo numero: </label>
-            <input type="number" name="SN" id="SN"><br><br>
+            <input required type="number" placeholder="0" name="SN" id="SN" min="0" max="100000"><br><br>
             <label for="OP" class="title">Selecione o Operador </label>
-            <select name="OP" id="OP">
+            <select required name="OP" id="OP">
                 <option selected disabled value="">Selecione</option>
                 <option value="+">+ Somar</option>
                 <option value="-">- Subtrair</option>
@@ -29,7 +29,7 @@
             </select><br><br>
  
             
-            <input type="submit" name="button-final" id="button-final" value="Realizar Operação">
+            <input type="submit" name="botao-final" id="botao-final" value="Realizar Operação">
 
 
         </form>
